@@ -25,6 +25,7 @@ class Square extends Polygon {
     if (this.countSides !== 4) {return false;}
     return this.sides[0] * 4 === this.perimeter;
   }
+  
   get area() {
     if (this.countSides !== 4) {return}
     return this.sides[0]**2;
